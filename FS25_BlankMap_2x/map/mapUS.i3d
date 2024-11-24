@@ -619,16 +619,6 @@
     <File fileId="579" filename="data/infoLayer_placementCollisionGenerated.png"/>
     <File fileId="576" filename="data/infoLayer_tipCollision.png"/>
     <File fileId="577" filename="data/infoLayer_tipCollisionGenerated.png"/>
-    <File fileId="656" filename="data/masks/BLOCKMASK.png"/>
-    <File fileId="654" filename="data/masks/GEN_forestBorders.png"/>
-    <File fileId="653" filename="data/masks/GEN_forestUPDT.png"/>
-    <File fileId="652" filename="data/masks/GEN_meadowUPDT.png"/>
-    <File fileId="651" filename="data/masks/GEN_roadsMask.png"/>
-    <File fileId="655" filename="data/masks/GEN_slopeMask.png"/>
-    <File fileId="648" filename="data/masks/PG_acres.png"/>
-    <File fileId="650" filename="data/masks/PG_bushLand.png"/>
-    <File fileId="647" filename="data/masks/PG_forest.png"/>
-    <File fileId="649" filename="data/masks/PG_meadow.png"/>
     <File fileId="284" filename="data/mudDark01_weight.png"/>
     <File fileId="289" filename="data/mudDark02_weight.png"/>
     <File fileId="334" filename="data/mudDarkGrassPatchy01_weight.png"/>
@@ -1146,17 +1136,6 @@
           </FoliageMultiLayer>
         </FoliageSystem>
       </Layers>
-      <ProceduralPlacementMasks blockMaskFileId="656">
-        <Mask name="PG_Forest" fileId="647" />
-        <Mask name="PG_Acres" fileId="648" />
-        <Mask name="PG_Meadow" fileId="649" />
-        <Mask name="PG_BushLand" fileId="650" />
-        <Mask name="GEN_Roads" fileId="651" />
-        <Mask name="GEN_MeadowUPDT" fileId="652" />
-        <Mask name="GEN_ForestUPDT" fileId="653" />
-        <Mask name="GEN_ForestBorders" fileId="654" />
-        <Mask name="GEN_SlopeMask" fileId="655" />
-      </ProceduralPlacementMasks>
     </TerrainTransformGroup>
     <TransformGroup name="careerStartPoint" translation="-0.459408 60 1.09541" rotation="-180 51.6196 -180" nodeId="32"/>
     <TransformGroup name="gameplay" nodeId="33">
